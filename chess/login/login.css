@@ -5,7 +5,7 @@ body {
 	font-family: sans-serif;
 	
 }
-/* Login */
+
 .login-box {
 	padding:0;
 	padding:15px;
@@ -86,14 +86,14 @@ body {
 	float:right;
 }
 
-/* neon snake */
+
 
 div .neol {
 	position: absolute;
 	display: block;
 }
 
-div .neol:nth-child(1)
+div .neon:nth-child(1)
 {
 	top:0;
 	left: -100%;
@@ -112,7 +112,8 @@ div .neol:nth-child(1)
 		left: 100%;
 	}
 }
-div .neol:nth-child(2)
+
+div .neon:nth-child(2)
 {
 	top: -100%;
 	right: 0;
@@ -133,7 +134,7 @@ div .neol:nth-child(2)
 	}
 }
 
-div .neol:nth-child(3)
+div .neon:nth-child(3)
 {
 	bottom: 0;
 	right: -100%;
@@ -154,7 +155,7 @@ div .neol:nth-child(3)
 	}
 }
 
-div .neol:nth-child(4)
+div .neon:nth-child(4)
 {
 	bottom: -100%;
 	left: 0;
@@ -174,14 +175,12 @@ div .neol:nth-child(4)
 		bottom: 100%;
 	}
 }
-/* API */
+
 .g-signin2 {
 	padding: 0;
 	margin-top: 10px;
 }
 
-
-/* Registration */
 
 .reg-box {
 	padding: 15px;
@@ -204,5 +203,12 @@ div .neol:nth-child(4)
 }
 
 div label {
-	border-bottom: 2px solid #30d7f0
+	border-bottom: 2px solid #30d7f0;
+}
+
+.signIn {
+	float: left;
+	padding: 0;
+	margin-top: 10px;
+	color: #30d7f0;
 }
