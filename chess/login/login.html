@@ -4,15 +4,18 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Chess</title>
+	
 	<script src="../jquery_321/jquery-3.2.1.min.js"></script>
+	<meta name="google-signin-client_id" content="255810932867-1j37u3mg9tu9eclksa4vbubnlv23bknk.apps.googleusercontent.com">
+	<script src="https://apis.google.com/js/platform.js" async defer></script>
 	<link rel="stylesheet" type="text/css" href="login.css">
 </head>
 <body style="background-color: #34495e">
 	<div id="form-login" class="login-box">
-		<span></span>
-		<span></span>
-		<span></span>
-		<span></span>
+		<span class="neol"></span>
+		<span class="neol"></span>
+		<span class="neol"></span>
+		<span class="neol"></span>
 		<h1>Login</h1>
 		<div class="textbox">
 			<i class="fa fa-user" aria-hidden="true"></i>
@@ -24,9 +27,12 @@
 			<input type="password" placeholder="Password" id="password" value="">
 		</div>
 
-		<input class="button" type="button" name="" value="Sign in">
+		<input class="dang_nhap" type="button" name="" value="Sign in">
 		<div>
-			<a href="../registration/registration.html" class="creat">Creat a new account</a>
+			<div class="g-signin2" data-onsuccess="onSignIn" style="background:"></div>
+		</div>
+		<div class="bottom-form">
+			<a href="../registration/registration.html" class="create">Create a new account</a>
 			<a href="#" class="forgot" style="">Forgot your password</a>
 		</div>
 	</div>
